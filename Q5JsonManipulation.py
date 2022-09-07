@@ -3,7 +3,7 @@ import json
 import datetime
 import os
 
-# Question 5 - Read in the document from a file
+# Question 5 - Read in the document from a file (see GIT Folder Required Files)
 # JSON file should be placed in the Desktop
 json_full_path = 'C:/Users/' + os.environ.get('USERNAME') + '/Desktop/JsonChallenge.json'
 json_file = open(json_full_path)
